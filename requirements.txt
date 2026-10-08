@@ -1,0 +1,16 @@
+# ============================================================
+# BioSyn Serial Dilution Planner — Python Dependencies
+# Python 3.10+ required
+# ============================================================
+
+# XLSX report export
+openpyxl>=3.1.0
+
+# ----------------------------------------------------------
+# Optional: PDF printable operation sheet
+# reportlab>=4.0.0
+#
+# Core calculation engine (C1V1=C2V2, dilution factors,
+# unit conversion) uses only Python standard library:
+#   argparse, csv, dataclasses, logging, math, pathlib, typing
+# ============================================================

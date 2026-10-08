@@ -1,0 +1,16 @@
+# BioSyn Serial Dilution Planner — Default Config
+pipetting:
+  min_transfer_ul: 2.0          # below this → WARNING
+  dead_volume_ul: 0.0           # extra volume to account for
+  excess_volume_pct: 0.0        # add this % to all volumes
+
+display:
+  precision: 4                   # decimal places for concentrations
+  volume_precision: 2            # decimal places for volumes
+  unit: "µg/mL"                  # default display unit
+
+safety:
+  flag_small_transfer: true
+  flag_large_dilution_factor: true
+  max_dilution_factor_single_step: 100
+  check_stock_volume: true

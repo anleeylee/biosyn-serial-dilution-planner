@@ -1,0 +1,9 @@
+# Example: 1:10 serial dilution, 5 tubes, starting at 1000 µg/mL, 1000 µL final volume
+# Run: python -m src.main factor --start 1000 --factor 10 --tubes 5 --volume 1000 --name Standard
+
+Tube,Label,Source,Transfer_ul,Diluent_ul,Concentration,Dilution_Factor
+1,Sample-T01,Stock,100.0,900.0,100.0,10
+2,Sample-T02,T1,100.0,900.0,10.0,10
+3,Sample-T03,T2,100.0,900.0,1.0,10
+4,Sample-T04,T3,100.0,900.0,0.1,10
+5,Sample-T05,T4,100.0,900.0,0.01,10

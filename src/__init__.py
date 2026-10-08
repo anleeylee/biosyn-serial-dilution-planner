@@ -1,0 +1,5 @@
+"""BioSyn Serial Dilution Planner — local-first dilution calculation tool."""
+__version__ = "1.0.0"
+__author__ = "BioSyn Inc."
+__license__ = "MIT"
+__url__ = "https://biosyn-inc.com/"
